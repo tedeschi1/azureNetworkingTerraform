@@ -10,5 +10,7 @@ The spokeVNET modules contains all the terraform code required to build the spok
 The CIDR and Count functions are used to dynamically create the number of required subnets and assign address space to each of the subnets in the spoke VNET.
   The "subnet-count" varible dictates the number of subnets to be create in the spoke VNET
   The "vnet-address-space" variable is used by the CIDR function to break up the VNET address space and assign networks to the subnets
+
+  All you need to do is populate the fields in the "terraform.tfvars" files with the appropriate vaules for your environment.
   
 
