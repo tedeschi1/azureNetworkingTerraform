@@ -11,6 +11,5 @@ The CIDR and Count functions are used to dynamically create the number of requir
 
 The "subnet-count" varible dictates the number of subnets to be create in the spoke VNET.
   
-The "vnet-address-space" variable is used by the CIDR function to break up the VNET address space and assign networks to the subnets. 3 bits will be added to the vnet-address-space and assigned to each subnet using the count function.
-  
+The "vnet-address-space" variable is used by the CIDR function to break up the VNET address space by adding 3 bits and then assigning the networks to the subnets.
 
